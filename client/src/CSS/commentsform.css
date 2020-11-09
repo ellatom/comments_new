@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 5px;
+    background-color: rgb(215, 227, 241);
+    padding: 8px;
+    border-radius: 10px;
+    color: ivory;
+    height: 50%;
+}
+.btnForm{
+    margin: 0 auto;
+    width: 80px;
+    height: 30px;
+}

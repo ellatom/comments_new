@@ -1,0 +1,29 @@
+.postPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin:0 auto;
+    width:600px;
+}
+.bottomContainer
+{
+    padding: 10px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+    width:100% ;
+}
+.searchbarContainer
+{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .postPageContainer {
+      width: auto;
+    }
+  }
